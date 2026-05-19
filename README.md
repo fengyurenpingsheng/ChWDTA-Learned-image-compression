@@ -47,12 +47,12 @@ ChWDTA models:
 
 | Lambda | Metric | Link                                                         | Lambda | Metric  | Link                                                         |
 | ------ | ------ | ------------------------------------------------------------ | ------ | ------- | ------------------------------------------------------------ |
-| 0.0025 | MSE    | [Link](https://drive.google.com/file/d/1E1DUaPsIrfNPwfk4qD-630hhxx5n_BJ4/view?usp=drive_link) | 3    | MS-SSIM | [Link](https://drive.google.com/file/d/1RUM2a1wdI8Yj9-tvzO_MnHGZWZRp2-W6/view?usp=drive_link) |
-| 0.0035 | MSE    | [Link](https://drive.google.com/file/d/15yDUVvEBn-7dMA9SBIQ2w28LJXBGntQo/view?usp=drive_link) | 5   | MS-SSIM | [Link](https://drive.google.com/file/d/1TL_QDlfzHvmerN1p0rn5mJbSNwn3LXXx/view?usp=drive_link) |
-| 0.0067 | MSE    | [Link](https://drive.google.com/file/d/1yzZKji6RpsyQPD6KFr_weavVrlmn-V4R/view?usp=drive_link) | 8   | MS-SSIM | [Link](https://drive.google.com/file/d/1nIEJY9ecr9uA9XidtiQRXQ2rzm1DWKM0/view?usp=drive_link) |
-| 0.013  | MSE    | [Link](https://drive.google.com/file/d/1L19zjwOpbbFPw0FxnyVLcHATxCaorjUV/view?usp=drive_link) | 16  | MS-SSIM | [Link](https://drive.google.com/file/d/1sKnWry4LIZPawwv08TH3l_41giUuElCx/view?usp=drive_link) |
-| 0.025  | MSE    | [Link](https://drive.google.com/file/d/1oh8OwCLc8PEVMW1fc9LoC7G4385kHU5D/view?usp=drive_link) | 32  | MS-SSIM | [Link](https://drive.google.com/file/d/1rR0vFbQ2fOT7EgJbYg5f0OdiIT5jbPPu/view?usp=drive_link) |
-| 0.05 | MSE    | [Link](https://drive.google.com/file/d/1VWLPQeDzBZgb1D2mZ9jLzLppXL8gUanH/view?usp=drive_link) |  64   | MS-SSIM | [Link](https://drive.google.com/file/d/1ITR5JEzLjmdHLp20GYzIdwE8eEK2d7ns/view?usp=drive_link) |
+| 0.0025 | MSE    | [Link](https://drive.google.com/file/d/1F-4OZlh7Q_oVgoGF4Q1ibWV9aezqkfAm/view?usp=drive_link) | 3    | MS-SSIM | [Link](https://drive.google.com/file/d/1jHzlC_h3n0U8qKhmAif_DECSBFoU2c8W/view?usp=sharing) |
+| 0.0035 | MSE    | [Link](https://drive.google.com/file/d/1UY9IK-C16574ShmiWwT7aJISB9jQDv-d/view?usp=sharing) | 5   | MS-SSIM | [Link](https://drive.google.com/file/d/1E9hFPojsIjGAbLfHyGvL296OPbGezQPf/view?usp=drive_link) |
+| 0.0067 | MSE    | [Link](https://drive.google.com/file/d/1rLnBFZAKHKVSuzSujWz8kw2vkOv_0x8f/view?usp=sharing) | 8   | MS-SSIM | [Link](https://drive.google.com/file/d/1kDh4zWfuxCntrtwDc_HNpQ35k6sEYDpy/view?usp=drive_link) |
+| 0.013  | MSE    | [Link](https://drive.google.com/file/d/1xM6c_L_L9FRLpYPa0qiADNR1m8u936VP/view?usp=sharing) | 16  | MS-SSIM | [Link](https://drive.google.com/file/d/1qR_lrnKXP8nbNKnbn4pJNcHpz3FXhVak/view?usp=drive_link) |
+| 0.025  | MSE    | [Link](https://drive.google.com/file/d/1F-4OZlh7Q_oVgoGF4Q1ibWV9aezqkfAm/view?usp=drive_link) | 32  | MS-SSIM | [Link](https://drive.google.com/file/d/1TXsqH0mfTWWDobkqPFyyEDL2y1W6tFv9/view?usp=drive_link) |
+| 0.05 | MSE    | [Link](https://drive.google.com/file/d/1x1ldrbmy7aGwbmhzMxv9_CbAgqaYjiZh/view?usp=sharing) |  64   | MS-SSIM | [Link](https://drive.google.com/file/d/1nWq6_5RjrBthI8p17x2tjYTKNjCFHrWt/view?usp=drive_link) |
 
 ## R-D Data
 
