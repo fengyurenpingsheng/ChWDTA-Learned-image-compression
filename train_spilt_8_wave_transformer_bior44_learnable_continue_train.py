@@ -14,7 +14,7 @@ from compressai.datasets import ImageFolder
 from compressai.zoo import models
 from pytorch_msssim import ms_ssim
 
-from models import DCAE_spit8_wave_transformer_bior44_learnable
+from models import ChWDTA_spit8_wave_transformer_bior44_learnable
 from torch.utils.tensorboard import SummaryWriter
 import os
 
@@ -364,7 +364,7 @@ def main(argv):
     )
 
 
-    net = DCAE_spit8_wave_transformer_bior44_learnable()
+    net = ChWDTA_spit8_wave_transformer_bior44_learnable()
     net = net.to(device)
 
     if args.cuda and torch.cuda.device_count() > 1:

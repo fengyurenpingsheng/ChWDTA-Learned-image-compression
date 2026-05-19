@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 from torchvision import transforms
 from models import (
-    DCAE_spit8_wave_transformer_bior44_learnable
+    ChWDTA_spit8_wave_transformer_bior44_learnable
 )
 import warnings
 import torch
@@ -97,7 +97,7 @@ def main(argv):
     else:
         device = 'cpu'
         
-    net = DCAE_spit8_wave_transformer_bior44_learnable()
+    net = ChWDTA_spit8_wave_transformer_bior44_learnable()
     net = net.to(device)
     net.eval()
     
