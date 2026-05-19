@@ -43,27 +43,16 @@ This implementation requires Python 3.8 and PyTorch. We recommend creating a cle
 
 ## Pretrained Model
 
-HPCM-Base models:
+ChWDTA models:
 
 | Lambda | Metric | Link                                                         | Lambda | Metric  | Link                                                         |
 | ------ | ------ | ------------------------------------------------------------ | ------ | ------- | ------------------------------------------------------------ |
-| 0.0018 | MSE    | [Link](https://drive.google.com/file/d/1nIoANbXzBNE0S_VoLo9ZDHU50lPMmeBP/view?usp=drive_link) | 2.4    | MS-SSIM | [Link](https://drive.google.com/file/d/1AZ9dY2J9Rn17YSQe_NYIOID-st1C-68O/view?usp=drive_link) |
-| 0.0035 | MSE    | [Link](https://drive.google.com/file/d/15J_nl33_5R_qyTIzLAaT60ICn9BMGHlB/view?usp=drive_link) | 4.58   | MS-SSIM | [Link](https://drive.google.com/file/d/1Y8gEL4MRNB-TBbOMDUKeMTO_z1QhbwqL/view?usp=drive_link) |
-| 0.0067 | MSE    | [Link](https://drive.google.com/file/d/1HIzsEqAPztaMh0Frqec4TtRwoc7uxO97/view?usp=drive_link) | 8.73   | MS-SSIM | [Link](https://drive.google.com/file/d/1hXK-X6GsjjiULy6FvU80Smob_2UOFeFJ/view?usp=drive_link) |
-| 0.013  | MSE    | [Link](https://drive.google.com/file/d/1Snq7vkWQdApzCe-gK_V-WuRyMHQRL443/view?usp=drive_link) | 16.64  | MS-SSIM | [Link](https://drive.google.com/file/d/1antXt3M0ecOVejbpxL1U7CVx4TS_XPMQ/view?usp=drive_link) |
-| 0.025  | MSE    | [Link](https://drive.google.com/file/d/1NFZD87BkfU28YnDqpzfphG0xDZDZpUA5/view?usp=drive_link) | 31.73  | MS-SSIM | [Link](https://drive.google.com/file/d/1X_Q0hHwAW0GOsHWLoq84YKYqXrduFe6b/view?usp=drive_link) |
-| 0.0483 | MSE    | [Link](https://drive.google.com/file/d/1G5wm4KENBY2qSAQBxNw3Rz4JcMxH8HXu/view?usp=drive_link) | 60.5   | MS-SSIM | [Link](https://drive.google.com/file/d/1mX885h4eVwLvpeHpBHBoM1p4Z2VLV2y-/view?usp=drive_link) |
-
-HPCM-Large models:
-
-| Lambda | Metric | Link                                                         | Lambda | Metric  | Link                                                         |
-| ------ | ------ | ------------------------------------------------------------ | ------ | ------- | ------------------------------------------------------------ |
-| 0.0018 | MSE    | [Link](https://drive.google.com/file/d/1E1DUaPsIrfNPwfk4qD-630hhxx5n_BJ4/view?usp=drive_link) | 2.4    | MS-SSIM | [Link](https://drive.google.com/file/d/1RUM2a1wdI8Yj9-tvzO_MnHGZWZRp2-W6/view?usp=drive_link) |
-| 0.0035 | MSE    | [Link](https://drive.google.com/file/d/15yDUVvEBn-7dMA9SBIQ2w28LJXBGntQo/view?usp=drive_link) | 4.58   | MS-SSIM | [Link](https://drive.google.com/file/d/1TL_QDlfzHvmerN1p0rn5mJbSNwn3LXXx/view?usp=drive_link) |
-| 0.0067 | MSE    | [Link](https://drive.google.com/file/d/1yzZKji6RpsyQPD6KFr_weavVrlmn-V4R/view?usp=drive_link) | 8.73   | MS-SSIM | [Link](https://drive.google.com/file/d/1nIEJY9ecr9uA9XidtiQRXQ2rzm1DWKM0/view?usp=drive_link) |
-| 0.013  | MSE    | [Link](https://drive.google.com/file/d/1L19zjwOpbbFPw0FxnyVLcHATxCaorjUV/view?usp=drive_link) | 16.64  | MS-SSIM | [Link](https://drive.google.com/file/d/1sKnWry4LIZPawwv08TH3l_41giUuElCx/view?usp=drive_link) |
-| 0.025  | MSE    | [Link](https://drive.google.com/file/d/1oh8OwCLc8PEVMW1fc9LoC7G4385kHU5D/view?usp=drive_link) | 31.73  | MS-SSIM | [Link](https://drive.google.com/file/d/1rR0vFbQ2fOT7EgJbYg5f0OdiIT5jbPPu/view?usp=drive_link) |
-| 0.0483 | MSE    | [Link](https://drive.google.com/file/d/1VWLPQeDzBZgb1D2mZ9jLzLppXL8gUanH/view?usp=drive_link) | 60.5   | MS-SSIM | [Link](https://drive.google.com/file/d/1ITR5JEzLjmdHLp20GYzIdwE8eEK2d7ns/view?usp=drive_link) |
+| 0.0025 | MSE    | [Link](https://drive.google.com/file/d/1E1DUaPsIrfNPwfk4qD-630hhxx5n_BJ4/view?usp=drive_link) | 3    | MS-SSIM | [Link](https://drive.google.com/file/d/1RUM2a1wdI8Yj9-tvzO_MnHGZWZRp2-W6/view?usp=drive_link) |
+| 0.0035 | MSE    | [Link](https://drive.google.com/file/d/15yDUVvEBn-7dMA9SBIQ2w28LJXBGntQo/view?usp=drive_link) | 5   | MS-SSIM | [Link](https://drive.google.com/file/d/1TL_QDlfzHvmerN1p0rn5mJbSNwn3LXXx/view?usp=drive_link) |
+| 0.0067 | MSE    | [Link](https://drive.google.com/file/d/1yzZKji6RpsyQPD6KFr_weavVrlmn-V4R/view?usp=drive_link) | 8   | MS-SSIM | [Link](https://drive.google.com/file/d/1nIEJY9ecr9uA9XidtiQRXQ2rzm1DWKM0/view?usp=drive_link) |
+| 0.013  | MSE    | [Link](https://drive.google.com/file/d/1L19zjwOpbbFPw0FxnyVLcHATxCaorjUV/view?usp=drive_link) | 16  | MS-SSIM | [Link](https://drive.google.com/file/d/1sKnWry4LIZPawwv08TH3l_41giUuElCx/view?usp=drive_link) |
+| 0.025  | MSE    | [Link](https://drive.google.com/file/d/1oh8OwCLc8PEVMW1fc9LoC7G4385kHU5D/view?usp=drive_link) | 32  | MS-SSIM | [Link](https://drive.google.com/file/d/1rR0vFbQ2fOT7EgJbYg5f0OdiIT5jbPPu/view?usp=drive_link) |
+| 0.05 | MSE    | [Link](https://drive.google.com/file/d/1VWLPQeDzBZgb1D2mZ9jLzLppXL8gUanH/view?usp=drive_link) |  64   | MS-SSIM | [Link](https://drive.google.com/file/d/1ITR5JEzLjmdHLp20GYzIdwE8eEK2d7ns/view?usp=drive_link) |
 
 ## R-D Data
 
