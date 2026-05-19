@@ -70,14 +70,14 @@ HPCM-Large models:
 R-D data on CLIC Pro Valid and Tecnick datasets is in `R-D_Data.md`.
 
 
-#### HPCM-Large, Kodak, PSNR
+#### ChWDTA, Kodak, PSNR
 
 ```
 bpp = [0.0951, 0.1537, 0.2438, 0.3778, 0.5516, 0.7843]
 psnr = [28.9135, 30.4490, 32.1219, 33.9923, 35.8511, 37.7480]
 ```
 
-#### HPCM-Large, Kodak, MS-SSIM
+#### ChWDTA, Kodak, MS-SSIM
 
 ```
 bpp = [0.0943, 0.1429, 0.2090, 0.2935, 0.4016, 0.5577]
