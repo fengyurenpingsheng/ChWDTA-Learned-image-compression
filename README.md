@@ -1,6 +1,6 @@
 # ChWDTA-Learned-image-compression
 
-# ChWDTA: Channel-wise Wavelet-Structured Transformer and Entropy Modeling for Learned Image Compression
+# ChWDTA: Channel-wise Wavelet-Domain Transformer Attention and Entropy Modeling for Learned Image Compression
 
 
 
