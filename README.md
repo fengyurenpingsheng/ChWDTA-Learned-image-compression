@@ -8,18 +8,8 @@
 
 This repository is the official PyTorch implementation of the paper *"ChWDTA: Channel-wise Wavelet-Structured Transformer and Entropy Modeling for Learned Image Compression"*.
 
-**Abstract:** Recent learned image compression methods have achieved strong rate-distortion performance by combining convolutional networks with Transformer-based spatial attention and expressive entropy models. However, most existing hybrid codecs apply attention and entropy modeling directly in the native channel coordinates, leaving the statistical structure along the channel dimension insufficiently exploited. In this paper, we propose ChWDTA, a channel-wise wavelet-structured learned image compression framework. The core component is a Channel-wise Wavelet-Decorrelated Transformer Block (ChWDTB), which wraps windowed spatial self-attention with an invertible lifting-based wavelet transform along the channel axis. This design keeps the efficient spatial-token attention pattern while computing attention from a structured channel representation. For entropy coding, we further introduce a Channel-wise Wavelet Packet (ChWP) transform to reorganize the latent representation into subbands that are better aligned with slice-based entropy modeling. The proposed wavelet transforms are initialized from the CDF 9/7 lifting structure and can be learned end-to-end while preserving exact invertibility. Experiments on Kodak, CLIC Professional Validation, and Tecnick show that ChWDTA achieves state-of-the-art rate-distortion performance with competitive computational complexity.
+**Abstract:** State-of-the-art learned image compression (LIC) schemes are increasingly based on hybrid CNN–transformer architectures. To further improve rate–distortion performance, we introduce channel-wise wavelet transforms into both the transformer and entropy-coding components. First, we propose a channel-wise wavelet-domain transformer attention (ChWDTA) mechanism. ChWDTA keeps the efficient windowed spatial self-attention used in modern LIC backbones, but computes the Q/K/V projections on channel-wise wavelet-transformed features before mapping the attention output back with the inverse transform. The resulting Channel-wise Wavelet-Domain Transformer Block (ChWDTB) therefore preserves the spatial tokenization pattern of windowed attention while sparsifying the channel covariance seen by the attention projections. Second, in the entropy-coding stage, we introduce a channel-wise wavelet packet (ChWP) decomposition that produces four equal-sized subbands, which better fit channel-wise slice-based autoregressive entropy modeling. When each channel-wise subband is divided into two slices, we use eight slices for entropy coding. With this configuration, the proposed scheme obtains BD-rate reductions of −17.82%, −19.15%, and −22.56% on the Kodak, CLIC Professional Validation, and Tecnick test sets, respectively. Even when each channel-wise subband is coded as a single slice, the scheme still retains most of the coding gains with lower complexity. The results confirm the advantage of introducing wavelet transform in the CNN-transformer-based LIC schemes. 
 
-## Highlights
-
-Our **Ch**annel-wise **W**avelet-**D**ecorrelated **T**ransformer **A**ttention (**ChWDTA**) framework improves learned image compression with the following key designs:
-
-- Channel-wise wavelet-structured Transformer attention via an invertible lifting-based wavelet wrapper.
-- Slice-aligned Channel-wise Wavelet Packet entropy coding for more effective latent distribution modeling.
-- End-to-end learnable lifting wavelets initialized from the CDF 9/7 transform while preserving perfect reconstruction.
-- Consistent integration of channel-wise wavelet modeling into the main backbone, hyperprior pathway, and entropy model.
-
-Our method achieves strong compression performance on Kodak (-17.82%), CLIC Professional Validation (-19.15%), and Tecnick (-22.56%) over VVC VTM-9.1.
 
 ### Performance
 
@@ -268,6 +258,16 @@ Part of our code is implemented based on [CompressAI](https://github.com/InterDi
 
 
 ## Citation
+
+@misc{fu2026chwdta,
+      title={ChWDTA: Channel-wise Wavelet-Domain Transformer Attention and Entropy Modeling for Learned Image Compression}, 
+      author={Haisheng Fu and Runyu Yang and Feng Ding and Siyu Zhu and Jie Liang and Xiaoxiao Li and Zhenman Fang and Jingning Han},
+      year={2026},
+      eprint={2606.00111},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://doi.org/10.48550/arXiv.2606.00111}
+}
 
 ```
 
