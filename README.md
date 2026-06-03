@@ -255,6 +255,11 @@ Part of our code is implemented based on [CompressAI](https://github.com/InterDi
 
 ## Citation
 
+## Citation
+
+If you find this work useful for your research, please consider citing:
+
+```bibtex
 @misc{fu2026chwdta,
       title={ChWDTA: Channel-wise Wavelet-Domain Transformer Attention and Entropy Modeling for Learned Image Compression}, 
       author={Haisheng Fu and Runyu Yang and Feng Ding and Siyu Zhu and Jie Liang and Xiaoxiao Li and Zhenman Fang and Jingning Han},
@@ -262,9 +267,8 @@ Part of our code is implemented based on [CompressAI](https://github.com/InterDi
       eprint={2606.00111},
       archivePrefix={arXiv},
       primaryClass={eess.IV},
-      url={https://doi.org/10.48550/arXiv.2606.00111}
+      url={[https://doi.org/10.48550/arXiv.2606.00111](https://doi.org/10.48550/arXiv.2606.00111)}
 }
-
 ```
 
 ```
