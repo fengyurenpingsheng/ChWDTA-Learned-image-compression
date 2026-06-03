@@ -19,7 +19,7 @@ Our ChWDTA model achieves state-of-the-art rate-distortion performance with comp
 
 ***
 
-![image](assets/sota.PNG)
+![image](images/Kodak.jpg)
 
 ***
 
