@@ -15,15 +15,11 @@ This repository is the official PyTorch implementation of the paper *"ChWDTA: Ch
 
 Our ChWDTA model achieves state-of-the-art rate-distortion performance with competitive computational complexity. Compared with VVC VTM-9.1, ChWDTA obtains BD-rate reductions of **-17.82%**, **-19.15%**, and **-22.56%** on Kodak, CLIC Professional Validation, and Tecnick, respectively.
 
-![image](assets/Rate_speed_comparison_on_Kodak.PNG)
-
-***
-
 ![image](images/Kodak.jpg)
-
 ***
-
-![image](assets/ablation.PNG)
+![image](images/Tecnick_CLIC.jpg)
+***
+![image](images/rate_distortion.jpg)
 
 ### Installation
 
